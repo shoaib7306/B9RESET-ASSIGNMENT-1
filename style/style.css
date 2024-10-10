@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-1 {
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    display: inline-flex;
+    padding: 17px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-function {
+    display: flex;
+    padding: 21px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #0D1321;
+}
+
+.btn-function {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* nav related style */
+.nav-section {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+}
+
+.nav-section h1 {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-section {
+    background-image: url(../assets/Hero-bg.png);
+    margin-top: 100px;
+    width: 1200px;
+    height: 652px;
+    flex-shrink: 0;
+}
+
+.banner-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-section img {
+    margin-top: 20px;
+}
+
+.banner-section h1 {
+    margin-top: 32px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+    /* 141.667% */
+
+}
+
+.banner-section p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
