@@ -173,9 +173,12 @@ a {
 
 
 }
-.card div h1, p {
+
+.card div h1,
+p {
     margin-bottom: 18px;
 }
+
 .section-heading {
     margin: 120px 200px 80px 200px;
     display: flex;
@@ -339,6 +342,17 @@ footer {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
 }
+
 .icon img {
     padding: 10px;
+}
+
+.last-p {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
