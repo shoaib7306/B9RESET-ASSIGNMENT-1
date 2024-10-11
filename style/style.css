@@ -6,6 +6,40 @@
     padding: 0;
 }
 
+body {
+    width: 1200px;
+}
+
+p {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.h1-card {
+    color: rgba(13, 19, 33, 0.70);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+}
+
+.h1-section {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 .btn-1 {
     border-radius: 8px;
     border: 1px solid #0D1321;
@@ -101,4 +135,27 @@
     font-weight: 400;
     line-height: 26px;
     /* 162.5% */
+}
+
+/* main body section 1 */
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    padding: 48px;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.section-1-heading {
+    margin: 120px 200px 80px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
