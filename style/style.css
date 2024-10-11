@@ -246,7 +246,7 @@ a {
 /* i need support section */
 
 .i-need-support {
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     padding: 50px 0;
