@@ -176,6 +176,15 @@ a {
 }
 
 /* my current target related style */
+.target-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    padding: 0 130px 50px 130px;
+}
+
 .html {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -212,14 +221,6 @@ a {
     padding: 30px;
 }
 
-.current-target-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 24px;
-    align-self: stretch;
-    padding: 0 130px 50px 130px;
-}
 
 /* next target related style  */
 .box {
@@ -243,9 +244,91 @@ a {
 }
 
 /* i need support section */
-.section-5-banner img {
-    width: 900px;
-    height: 300px;
+
+.i-need-support {
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    border-radius: 10px;
+    margin: 30px 130px;
+    display: flex;
+    justify-content: center;
     border-radius: 16px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.need-support {
+    text-align: center;
+    color: white;
+    max-width: 900px;
+    padding: 64px 48px;
+}
+
+.need-support h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 112.5% */
+    margin-bottom: 14px;
+}
+
+.need-support p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 22px;
+}
+
+.input-section {
+    display: inline-flex;
+    gap: 10px;
+
+}
+
+.input-section input {
+    display: flex;
+    width: 548px;
+    padding: 19px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+
+.input-section button {
+    display: flex;
+    width: 120px;
+    padding: 17px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    width: 1440px;
+    padding: 32px 150px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+footer div{
+    display: inline-flex;
+
 }
