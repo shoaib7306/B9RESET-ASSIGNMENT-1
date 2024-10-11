@@ -20,6 +20,16 @@ p {
     /* 162.5% */
 }
 
+a {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
 .h1-card {
     color: rgba(13, 19, 33, 0.70);
     font-family: "Azeret Mono";
@@ -153,9 +163,89 @@ p {
 
 }
 
-.section-1-heading {
+.section-heading {
     margin: 120px 200px 80px 200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.my-inspiration iframe {
+    margin: 50px;
+
+}
+
+/* my current target related style */
+.html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+    padding: 30px;
+}
+
+.css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+    padding: 30px;
+}
+
+.java {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+    padding: 30px;
+}
+
+.current-target-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    padding: 0 130px 50px 130px;
+}
+
+/* next target related style  */
+.box {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+    padding: 30px;
+}
+
+.current-target-box {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+/* i need support section */
+.section-5-banner img {
+    width: 900px;
+    height: 300px;
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
