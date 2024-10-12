@@ -341,6 +341,7 @@ footer {
     margin-top: 60px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
+    padding: 20px;
 }
 
 .icon img {
