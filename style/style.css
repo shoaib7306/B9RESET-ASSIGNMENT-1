@@ -330,6 +330,7 @@ p {
     gap: 10px;
     border-radius: 8px;
     background: #FFF;
+    font-weight: 600;
 }
 
 /* footer section */
